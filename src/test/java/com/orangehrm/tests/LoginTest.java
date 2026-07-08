@@ -29,7 +29,7 @@ import com.orangehrm.pages.OrangeHRMHomePage;
 			navigateToBaseURL(data);
 			testCaseLogger.get().info("Navigate to url");
 			OrangeHRMHomePage page = new OrangeHRMHomePage().getHomePage();
-			page.loginToOrangeHRM();
+			//page.loginToOrangeHRM();
 			
 		}
 

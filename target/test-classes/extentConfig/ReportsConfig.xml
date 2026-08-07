@@ -14,10 +14,10 @@
 		<protocol>https</protocol>
 
 		<!-- title of the document -->
-		<documentTitle>Orange HRM Test Automation</documentTitle>
+		<documentTitle>Timesheet Revamp Test Automation</documentTitle>
 
 		<!-- report headline - displayed at top-nav, after reportHeadline -->
-		<reportHeadline>Orange HRM Regression Result</reportHeadline>
+		<reportHeadline>Timesheet Revamp Regression Result</reportHeadline>
 
 		<!-- global date format override -->
 		<!-- defaults to yyyy-MM-dd -->

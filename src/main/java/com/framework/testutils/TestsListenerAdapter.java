@@ -52,8 +52,7 @@ public class TestsListenerAdapter implements IInvokedMethodListener {
 					for (int i = 0; i < size - 1; i++) {
 						failureMessage.append("Failure ").append(i + 1).append(" of ").append(size).append(":n");
 						Throwable t = verificationFailures.get(i);
-						//String fullStackTrace = Utils.stackTrace(t, false)[1];
-						String fullStackTrace = Utils.shortStackTrace(t, false);
+						String fullStackTrace = Utils.stackTrace(t, false)[1];
 						failureMessage.append(fullStackTrace).append("nn");
 					}
 

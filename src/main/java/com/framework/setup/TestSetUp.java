@@ -246,12 +246,10 @@ public class TestSetUp {
 		if(configProperty.getProperty("url") != null)
 		{
 		DriverManager.getDriver().navigate().to(configProperty.getProperty("url"));
-		testCaseLogger.get().info("Navigate to url");
 		appLogs.debug("Navigating to BaseURL");
 		}else
 		{
 			DriverManager.getDriver().navigate().to(data.get("expected url"));
-			testCaseLogger.get().info("Navigate to url");
 			appLogs.debug("Navigating to BaseURL");
 		}
 	}

@@ -1,15 +1,14 @@
-07/08/2026 16:58:21 devpinoyLogger Extent report is not moved
-07/08/2026 16:58:21 devpinoyLogger Emailable report is not moved
-07/08/2026 16:58:21 devpinoyLogger ReportNG report has not been moved
-07/08/2026 16:58:21 devpinoyLogger cleaning the folder Screenshots
-07/08/2026 16:58:21 devpinoyLogger Folder absolute path C:\Users\Dharam\git\Selenium_Java_TestNG_POM\Screenshots
-07/08/2026 16:58:21 devpinoyLogger Deleted all files in the folder C:\Users\Dharam\git\Selenium_Java_TestNG_POM\Screenshots
-07/08/2026 16:58:22 devpinoyLogger cleaning the folder Download
-07/08/2026 16:58:22 devpinoyLogger Folder absolute path C:\Users\Dharam\git\Selenium_Java_TestNG_POM\Download
-07/08/2026 16:58:23 devpinoyLogger Total rows are : 3
-07/08/2026 16:58:23 devpinoyLogger Test case starts from row num: 1
-07/08/2026 16:58:23 devpinoyLogger Total rows of data are : 1
-07/08/2026 16:58:23 devpinoyLogger Total cols are : 5
-07/08/2026 16:58:23 devpinoyLogger Starting execution of test case: loginToHrm
-07/08/2026 16:58:28 devpinoyLogger Log4J validation
-07/08/2026 16:58:35 devpinoyLogger Navigating to BaseURL
+08/07/2026 17:26:49 devpinoyLogger Extent report is not moved
+08/07/2026 17:26:49 devpinoyLogger Emailable report is not moved
+08/07/2026 17:26:49 devpinoyLogger ReportNG report has not been moved
+08/07/2026 17:26:49 devpinoyLogger cleaning the folder Screenshots
+08/07/2026 17:26:49 devpinoyLogger Folder absolute path D:\Automation\Selenium\SeleniumPOM\Screenshots
+08/07/2026 17:26:49 devpinoyLogger Deleted all files in the folder D:\Automation\Selenium\SeleniumPOM\Screenshots
+08/07/2026 17:26:49 devpinoyLogger cleaning the folder Download
+08/07/2026 17:26:49 devpinoyLogger Folder absolute path D:\Automation\Selenium\SeleniumPOM\Download
+08/07/2026 17:26:50 devpinoyLogger Total rows are : 3
+08/07/2026 17:26:50 devpinoyLogger Test case starts from row num: 1
+08/07/2026 17:26:50 devpinoyLogger Total rows of data are : 1
+08/07/2026 17:26:50 devpinoyLogger Total cols are : 5
+08/07/2026 17:26:50 devpinoyLogger Starting execution of test case: loginToHrm
+08/07/2026 17:27:01 devpinoyLogger Navigating to BaseURL

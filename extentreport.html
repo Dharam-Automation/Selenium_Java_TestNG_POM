@@ -92,7 +92,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jul 8, 2026 05:26:49 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Aug 7, 2026 04:58:21 PM</span>
 				</a>
 			</li>
 			<li>
@@ -186,6 +186,20 @@
 			</div>
 		</div>
 		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
 		
 	</div>
 </div>
@@ -197,44 +211,60 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>LoginTest</span>
-						<span class='test-time'>Jul 8, 2026 05:26:50 PM</span>
+						<span class='test-time'>Aug 7, 2026 04:58:23 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jul 8, 2026 05:26:50 PM</span>
-	<span class='label end-time'>Jul 8, 2026 05:27:01 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+28ms</span>
+	<span class='label start-time'>Aug 7, 2026 04:58:23 PM</span>
+	<span class='label end-time'>Aug 7, 2026 04:58:35 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+720ms</span>
 </div>
-	<div class='test-attributes'>
-			<div class='category-list'>
-				<span class='category label white-text'>Smoke</span>
-			</div>
-			<div class='author-list'>
-				<span class='author label white-text'>Dharmendra</span>
-			</div>
-	</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>5:27:01 PM</td>
-					<td class='step-details'>Navigate to url</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='2'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>loginToHrm</h5>
+						<span class='test-status right pass'>pass</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 6s+662ms</span>
+								<span class='category label white-text'>Smoke</span>
+								<span class='author label white-text'>Dharmendra</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>4:58:28 PM</td>
+													<td class='step-details'>Execution of Test case- <b>loginToHrm</b> started.</td>
+												</tr>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>4:58:35 PM</td>
+													<td class='step-details'>Navigate to url</td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>4:58:35 PM</td>
+													<td class='step-details'><span class='label white-text green'><b>Test Case:- loginToHrm Passed</b></span></td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
 					</div>
 				</li>
 			</ul>
@@ -312,8 +342,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jul 8, 2026 05:26:50 PM</td>
-										<td class='linked' test-id='1'>LoginTest</td>
+										<td>Aug 7, 2026 04:58:28 PM</td>
+										<td class='linked' test-id='2'>LoginTest.loginToHrm</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -382,8 +412,8 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Jul 8, 2026 05:26:50 PM</td>
-                                                <td class='linked' test-id='1'>LoginTest</td>
+                                                <td>Aug 7, 2026 04:58:28 PM</td>
+                                                <td class='linked' test-id='2'>LoginTest.loginToHrm</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                         </tbody>
@@ -417,25 +447,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>0</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 8, 2026 05:26:49 PM</div>
+					<div class='panel-lead'>Aug 7, 2026 04:58:21 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 8, 2026 05:27:05 PM</div>
+			 		<div class='panel-lead'>Aug 7, 2026 04:58:35 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>16,316ms</div>
+					<div class='panel-lead'>13,497ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -492,7 +522,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 0,
+				passChild: 1,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,

@@ -13,9 +13,11 @@
 	</listeners>
 	<test name="TimesheetRevamp_Regression">
 		<classes>
-			<class
-				name="com.orangehrm.tests.LoginTest" />
-
+			<class name="com.orangehrm.tests.LoginTest">
+				<methods>
+				<include name = "loginToHrm" />
+				</methods>
+			</class>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

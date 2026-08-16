@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>TA</groupId>
-	<artifactId>com.prabhudatta</artifactId>
+	<artifactId>com.dharmendra.hirwe</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
-	<name>SeleniumPOM</name>
+	<name>Selenium_Java_TestNG_POM</name>
 	<description>This is a reusable framework using POM</description>
 
 	<properties>

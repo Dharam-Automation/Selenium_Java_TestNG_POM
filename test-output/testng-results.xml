@@ -1,76 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-16T11:49:29 IST" name="Default suite" finished-at="2026-08-16T11:49:42 IST" duration-ms="12474">
+  <suite started-at="2026-08-16T13:22:38 IST" name="Default suite" finished-at="2026-08-16T13:23:08 IST" duration-ms="29392">
     <groups>
     </groups>
-    <test started-at="2026-08-16T11:49:29 IST" name="Default test" finished-at="2026-08-16T11:49:42 IST" duration-ms="12474">
+    <test started-at="2026-08-16T13:22:38 IST" name="Default test" finished-at="2026-08-16T13:23:08 IST" duration-ms="29392">
       <class name="com.orangehrm.tests.LoginTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.orangehrm.tests.LoginTest@62435e70]" started-at="2026-08-16T11:49:28 IST" name="beforeSuite" finished-at="2026-08-16T11:49:29 IST" duration-ms="1417" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:22:37 IST" name="beforeSuite" finished-at="2026-08-16T13:22:38 IST" duration-ms="1527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.orangehrm.tests.LoginTest@62435e70]" started-at="2026-08-16T11:49:29 IST" name="beforeTest" finished-at="2026-08-16T11:49:29 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:22:38 IST" name="beforeTest" finished-at="2026-08-16T13:22:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.orangehrm.tests.LoginTest@62435e70]" started-at="2026-08-16T11:49:29 IST" name="beforeClass" finished-at="2026-08-16T11:49:29 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:22:38 IST" name="beforeClass" finished-at="2026-08-16T13:22:38 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@62435e70]" started-at="2026-08-16T11:49:29 IST" name="beforeMethod" finished-at="2026-08-16T11:49:33 IST" duration-ms="3520" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:22:38 IST" name="beforeMethod" finished-at="2026-08-16T13:22:42 IST" duration-ms="3832" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.orangehrm.tests.LoginTest.loginToHrm(java.util.Hashtable) throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.orangehrm.tests.LoginTest.loginToPerformanceModule(java.util.Hashtable) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginToHrm(java.util.Hashtable)[pri:0, instance:com.orangehrm.tests.LoginTest@62435e70]" started-at="2026-08-16T11:49:33 IST" name="loginToHrm" data-provider="dpone" finished-at="2026-08-16T11:49:40 IST" duration-ms="7545" status="PASS">
+        <test-method signature="loginToPerformanceModule(java.util.Hashtable)[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:22:42 IST" name="loginToPerformanceModule" data-provider="dpone" finished-at="2026-08-16T13:22:54 IST" duration-ms="12192" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Username=Admin, password=admin123, Page=TimesheetReport, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]]>
+                <![CDATA[{Module=Performance, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login, username=Admin}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToHrm -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@62435e70]" started-at="2026-08-16T11:49:40 IST" name="afterMethod" finished-at="2026-08-16T11:49:42 IST" duration-ms="1240" status="PASS">
+        </test-method> <!-- loginToPerformanceModule -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:22:54 IST" name="afterMethod" finished-at="2026-08-16T13:22:55 IST" duration-ms="409" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToHrm status=SUCCESS method=LoginTest.loginToHrm(java.util.Hashtable)[pri:0, instance:com.orangehrm.tests.LoginTest@62435e70] output={null}]]]>
+                <![CDATA[[TestResult name=loginToPerformanceModule status=SUCCESS method=LoginTest.loginToPerformanceModule(java.util.Hashtable)[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@76f2dad9]]>
+                <![CDATA[org.testng.TestRunner@149274cb]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[public void com.orangehrm.tests.LoginTest.loginToHrm(java.util.Hashtable) throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.orangehrm.tests.LoginTest.loginToPerformanceModule(java.util.Hashtable) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.orangehrm.tests.LoginTest@62435e70]" started-at="2026-08-16T11:49:42 IST" name="afterClass" finished-at="2026-08-16T11:49:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:22:55 IST" name="beforeMethod" finished-at="2026-08-16T13:22:57 IST" duration-ms="1816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.tests.LoginTest.loginToTimeModule(java.util.Hashtable) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginToTimeModule(java.util.Hashtable)[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:22:57 IST" name="loginToTimeModule" data-provider="dpone" finished-at="2026-08-16T13:23:07 IST" duration-ms="10485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Module=Time, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToTimeModule -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,org.testng.ITestContext,java.lang.reflect.Method)[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:23:07 IST" name="afterMethod" finished-at="2026-08-16T13:23:07 IST" duration-ms="429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToTimeModule status=SUCCESS method=LoginTest.loginToTimeModule(java.util.Hashtable)[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@149274cb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.orangehrm.tests.LoginTest.loginToTimeModule(java.util.Hashtable) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:23:07 IST" name="afterClass" finished-at="2026-08-16T13:23:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.orangehrm.tests.LoginTest@62435e70]" started-at="2026-08-16T11:49:42 IST" name="afterTest" finished-at="2026-08-16T11:49:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:23:08 IST" name="afterTest" finished-at="2026-08-16T13:23:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.orangehrm.tests.LoginTest@62435e70]" started-at="2026-08-16T11:49:42 IST" name="afterSuite" finished-at="2026-08-16T11:49:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.orangehrm.tests.LoginTest@339bf286]" started-at="2026-08-16T13:23:08 IST" name="afterSuite" finished-at="2026-08-16T13:23:08 IST" duration-ms="672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

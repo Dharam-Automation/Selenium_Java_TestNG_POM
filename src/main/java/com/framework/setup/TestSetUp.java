@@ -191,7 +191,7 @@ public class TestSetUp {
 	@AfterMethod(alwaysRun = true)
 	public void afterMethod(ITestResult result, ITestContext context, Method method) throws IOException {
 
-		extent.flush();
+	//	extent.flush();
 		DriverFactory.destroyDriver();
 	}
 
@@ -218,7 +218,7 @@ public class TestSetUp {
 			 */
 			DriverManager.getDriver().quit();
 		}
-		// extent.flush();
+		 extent.flush();
 
 	}
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TimesheetRevamp_Regression"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="24.584">
+  <properties />
+  
+  
+            <testcase name="loginToTimeModule" time="13.803" classname="com.orangehrm.tests.LoginTest" />
+                <testcase name="loginToPerformanceModule" time="10.781" classname="com.orangehrm.tests.LoginTest" />
+      
+</testsuite>

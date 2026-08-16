@@ -1,14 +1,20 @@
-16/08/2026 11:49:28 devpinoyLogger Extent report is not moved
-16/08/2026 11:49:28 devpinoyLogger Emailable report is not moved
-16/08/2026 11:49:28 devpinoyLogger ReportNG report has not been moved
-16/08/2026 11:49:28 devpinoyLogger cleaning the folder Screenshots
-16/08/2026 11:49:28 devpinoyLogger Folder absolute path C:\Users\Dharam\git\Selenium_Java_TestNG_POM\Screenshots
-16/08/2026 11:49:28 devpinoyLogger Deleted all files in the folder C:\Users\Dharam\git\Selenium_Java_TestNG_POM\Screenshots
-16/08/2026 11:49:28 devpinoyLogger cleaning the folder Download
-16/08/2026 11:49:28 devpinoyLogger Folder absolute path C:\Users\Dharam\git\Selenium_Java_TestNG_POM\Download
-16/08/2026 11:49:29 devpinoyLogger Total rows are : 3
-16/08/2026 11:49:29 devpinoyLogger Test case starts from row num: 1
-16/08/2026 11:49:29 devpinoyLogger Total rows of data are : 1
-16/08/2026 11:49:29 devpinoyLogger Total cols are : 5
-16/08/2026 11:49:29 devpinoyLogger Starting execution of test case: loginToHrm
-16/08/2026 11:49:39 devpinoyLogger Navigating to BaseURL
+16/08/2026 13:22:37 devpinoyLogger Extent report is not moved
+16/08/2026 13:22:37 devpinoyLogger Emailable report is not moved
+16/08/2026 13:22:37 devpinoyLogger ReportNG report has not been moved
+16/08/2026 13:22:37 devpinoyLogger cleaning the folder Screenshots
+16/08/2026 13:22:37 devpinoyLogger Folder absolute path C:\Users\Dharam\git\Selenium_Java_TestNG_POM\Screenshots
+16/08/2026 13:22:37 devpinoyLogger Deleted all files in the folder C:\Users\Dharam\git\Selenium_Java_TestNG_POM\Screenshots
+16/08/2026 13:22:37 devpinoyLogger cleaning the folder Download
+16/08/2026 13:22:37 devpinoyLogger Folder absolute path C:\Users\Dharam\git\Selenium_Java_TestNG_POM\Download
+16/08/2026 13:22:38 devpinoyLogger Total rows are : 7
+16/08/2026 13:22:38 devpinoyLogger Test case starts from row num: 1
+16/08/2026 13:22:38 devpinoyLogger Total rows of data are : 1
+16/08/2026 13:22:38 devpinoyLogger Total cols are : 5
+16/08/2026 13:22:38 devpinoyLogger Starting execution of test case: loginToPerformanceModule
+16/08/2026 13:22:50 devpinoyLogger Navigating to BaseURL
+16/08/2026 13:22:55 devpinoyLogger Total rows are : 7
+16/08/2026 13:22:55 devpinoyLogger Test case starts from row num: 5
+16/08/2026 13:22:55 devpinoyLogger Total rows of data are : 1
+16/08/2026 13:22:55 devpinoyLogger Total cols are : 5
+16/08/2026 13:22:55 devpinoyLogger Starting execution of test case: loginToTimeModule
+16/08/2026 13:23:03 devpinoyLogger Navigating to BaseURL

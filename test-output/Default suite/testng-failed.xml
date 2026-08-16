@@ -8,8 +8,8 @@
           <include name="afterClass"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="loginToHrm" invocation-numbers="0"/>
           <include name="beforeSuite"/>
+          <include name="loginToHrm" invocation-numbers="0"/>
           <include name="afterSuite"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>

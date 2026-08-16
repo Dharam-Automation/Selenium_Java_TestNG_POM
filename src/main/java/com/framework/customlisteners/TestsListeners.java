@@ -78,6 +78,7 @@ public class TestsListeners extends TestSetUp implements ITestListener, ISuiteLi
 
 	public void onTestStart(ITestResult arg0) {
 		ExtentTest child = classLevelExtentTest.get().createNode(arg0.getMethod().getMethodName());
+		//ExtentTest child =	extent.createTest(arg0.getMethod().getMethodName());
 		testCaseLogger.set(child);
 		testCaseLogger.get().log(Status.INFO,
 				"Execution of Test case- <b>" + arg0.getMethod().getMethodName() + "</b> started.");

@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Dharam\AppData\Local\Temp\testng-eclipse-252459417\testng-customsuite.xml</span>
+                    <span>C:\Users\Dharam\AppData\Local\Temp\testng-eclipse--1443927561\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.orangehrm.tests.LoginTest" class="method navigator-link" hash-for-method="loginToHrm({Username=Admin, password=admin123, Page=TimesheetReport, Runmode=Y, expected url=https://opensource...)">loginToHrm({Username=Admin, password=admin123, Page=TimesheetReport, Runmode=Y, expected url=https://opensource...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.orangehrm.tests.LoginTest" class="method navigator-link" hash-for-method="loginToPerformanceModule({Module=Performance, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmliv...)">loginToPerformanceModule({Module=Performance, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmliv...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.orangehrm.tests.LoginTest" class="method navigator-link" hash-for-method="loginToTimeModule({Module=Time, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/w...)">loginToTimeModule({Module=Time, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/w...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,10 +131,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginToHrm({Username=Admin, password=admin123, Page=TimesheetReport, Runmode=Y, expected url=https://opensource...)">
-                  </a> <!-- loginToHrm({Username=Admin, password=admin123, Page=TimesheetReport, Runmode=Y, expected url=https://opensource...) -->
-                  <span class="method-name">loginToHrm</span>
-                  <span class="parameters">({Username=Admin, password=admin123, Page=TimesheetReport, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login})</span>
+                  <a name="loginToPerformanceModule({Module=Performance, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmliv...)">
+                  </a> <!-- loginToPerformanceModule({Module=Performance, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmliv...) -->
+                  <span class="method-name">loginToPerformanceModule</span>
+                  <span class="parameters">({Module=Performance, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login, username=Admin})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToTimeModule({Module=Time, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/w...)">
+                  </a> <!-- loginToTimeModule({Module=Time, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/w...) -->
+                  <span class="method-name">loginToTimeModule</span>
+                  <span class="parameters">({Module=Time, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login, username=Admin})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +150,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Dharam\AppData\Local\Temp\testng-eclipse-252459417\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Dharam\AppData\Local\Temp\testng-eclipse--1443927561\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -186,16 +199,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginToHrm')
+data.setCell(0, 1, 'loginToPerformanceModule')
 data.setCell(0, 2, 'com.orangehrm.tests.LoginTest')
-data.setCell(0, 3, 7545);
+data.setCell(0, 3, 12192);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginToTimeModule')
+data.setCell(1, 2, 'com.orangehrm.tests.LoginTest')
+data.setCell(1, 3, 10485);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -228,35 +245,47 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">1436 ms</span>
+                <span class="method-start">1573 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">1474 ms</span>
+                <span class="method-start">1634 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.orangehrm.tests.LoginTest.loginToHrm(java.util.Hashtable) throws java.lang.Interrupt...)</span>
-                <span class="method-start">1562 ms</span>
+                <span class="method-name">beforeMethod(public void com.orangehrm.tests.LoginTest.loginToPerformanceModule(java.util.Hashtable) throws java....)</span>
+                <span class="method-start">1725 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginToHrm({Username=Admin, password=admin123, Page=TimesheetReport, Runmode=Y, expected url=https://opensource...)</span>
-                <span class="method-start">5090 ms</span>
+                <span class="method-name">loginToPerformanceModule({Module=Performance, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmliv...)</span>
+                <span class="method-start">5557 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=loginToHrm status=SUCCESS method=LoginTest.loginToHrm(java.util.Hashtable)[pri:0, i...)</span>
-                <span class="method-start">12646 ms</span>
+                <span class="method-name">afterMethod([TestResult name=loginToPerformanceModule status=SUCCESS method=LoginTest.loginToPerformanceModule(j...)</span>
+                <span class="method-start">17761 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.orangehrm.tests.LoginTest.loginToTimeModule(java.util.Hashtable) throws java.lang.In...)</span>
+                <span class="method-start">18179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginToTimeModule({Module=Time, password=admin123, Runmode=Y, expected url=https://opensource-demo.orangehrmlive.com/w...)</span>
+                <span class="method-start">19995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginToTimeModule status=SUCCESS method=LoginTest.loginToTimeModule(java.util.Hasht...)</span>
+                <span class="method-start">30505 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">13889 ms</span>
+                <span class="method-start">30935 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">13893 ms</span>
+                <span class="method-start">30939 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">13937 ms</span>
+                <span class="method-start">30980 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

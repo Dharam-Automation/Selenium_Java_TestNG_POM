@@ -3,6 +3,8 @@
  */
 package com.orangehrm.pages;
 
+import java.util.Hashtable;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -12,7 +14,7 @@ import com.internal.regression.pages.MyTimePage;
 import com.internal.regression.pages.PageConstants;
 
 /**
- * @author Dharam
+ * @author Dharmendra
  *
  */
 public class OrangeHRMHomePage extends BasePage{
@@ -41,8 +43,15 @@ public class OrangeHRMHomePage extends BasePage{
 	public void loginToOrangeHRM()
 	{
 		userName.sendKeys("Admin");
-		userName.sendKeys("admin123");
+		password.sendKeys("admin123");
 		submitButton.click();
 	}
 
+	public void loginToOrangeHRM(Hashtable<String, String> data)
+	{
+		
+		userName.sendKeys(data.get("username"));
+		password.sendKeys(data.get("password"));
+		submitButton.click();
+	}
 }

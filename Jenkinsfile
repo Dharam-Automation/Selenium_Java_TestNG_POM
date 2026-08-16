@@ -29,6 +29,15 @@ pipeline {
                 checkout scm
             }
         }
+    stage('Verify Environment') {
+            steps {
+                bat '''
+                    echo JAVA_HOME=%JAVA_HOME%
+                    java -version
+                    mvn -version
+                '''
+            }
+        }
 
         stage('Execute Tests') {
             steps {
